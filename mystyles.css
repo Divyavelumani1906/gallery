@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1{
+  text-align: center;
+  }
+  p{
+  font-size: 65px;
+  }
+
+
+  
+  header{
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  }
+  main{
+       margin-left: 100px;
+         width: 100%;
+         margin-top: 50px;
+  }
+  .box{
+  width: 20%;
+  float: left;
+  padding: 7px;
+  padding-left: 10px; 
+  display: block;
+  height: min-content;
+  
+  }
+  
+  img{
+  width: 100%;
+  border-radius: 10px;
+  height: 30%;
+  
+  
+  }
+  
+  img:hover{
+    transform: scale(1.4,1.4);
+   /*transform: rotate(60deg);*/
+   transition: .4s transform;
+  
+  }
+
